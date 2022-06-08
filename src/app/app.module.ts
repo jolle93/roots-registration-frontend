@@ -6,10 +6,14 @@ import { AppComponent } from './app.component';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { PersonalDataComponent } from './modules/personal-data/personal-data.component';
+import { CharacterDataComponent } from './modules/character-data/character-data.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PersonalDataComponent,
+    CharacterDataComponent
   ],
   imports: [
     BrowserModule,
